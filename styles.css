@@ -1,35 +1,4 @@
- body {
-      background-color: #8ab198;
-      color: white;
-      font-family: 'Segoe UI', sans-serif;
-    }
-
-    nav {
-      background-color: #346b54;
-    }
-
-    .hero {
-      padding: 80px 0;
-      background: #8ab198;
-    }
-
-    .hero h1 span {
-      color: #ffcc00;
-    }
-
-    .hero img {
-      max-width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    .btn-custom {
-      border: 2px solid white;
-      color: white;
-      margin-right: 10px;
-    }
-
-    .btn-custom:hover {
-      background-color: white;
-      color: #346b54;
-    }
+*{
+  margin: 0;
+  padding: 0;
+}
