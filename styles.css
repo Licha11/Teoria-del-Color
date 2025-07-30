@@ -289,3 +289,37 @@ main {
     }
   
 }
+
+
+.galeriaColores{
+  background-color: #F6F7F9;
+}
+
+
+.cardGaleria {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.cardGaleria:hover {
+  transform: scale(1.03);
+}
+
+.cardGaleria img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.cardGaleria img:hover {
+  transform: scale(1.05);
+}
+
+.cardGaleria .card-body {
+  padding: 1.25rem;
+} 
+
+ 
