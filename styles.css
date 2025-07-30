@@ -334,3 +334,20 @@ main {
 .colorTerciario{
   background-color: #1A8654;
 }
+
+.sectionForm{
+  background-color: #457660;
+  margin: 0;
+}
+
+footer{
+  background-color: #346b54;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
