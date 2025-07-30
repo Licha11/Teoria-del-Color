@@ -22,3 +22,39 @@ main {
 .navbar {
    background-color:  #346b54;
 }
+
+.hero-section{
+  background-color: #8AB198;
+  min-height: 100vh;
+}
+
+.imagenPaleta {
+  max-width: 90%; 
+  transform: rotate(-2deg);
+  transition: transform 0.4s ease;
+}
+
+.imagenPaleta:hover {
+  transform: scale(1.05);
+}
+
+.letraColor{
+  display: inline-block;
+  position: relative;
+  color: #F9C440;
+}
+
+.letraColor::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  background-color: #F9C440;
+  height: 2px;
+  transition: width 300ms ease-in;
+}
+
+.letraColor:hover::after {
+  width: 100%;
+}
